@@ -1,4 +1,4 @@
-echo "# Pruebas Unitarias con GitHub Actions 🚀
+"# Pruebas Unitarias con GitHub Actions 🚀
 
 ![Build and Test](https://github.com/Juanenriquezcc/Pruebas-UnitariasJ/actions/workflows/ci.yml/badge.svg)
 
