@@ -27,3 +27,12 @@ Este proyecto implementa un flujo de **integración continua (CI)** usando **Git
 ## 🧠 Desarrollado por
 **Juan Enriquez**  
 Estudiante de Ingeniería de Software | UCC" 
+
+## 🧪 Ejecución de pruebas
+
+Para ejecutar las pruebas unitarias localmente:
+
+```bash
+npm install
+npm test
+
