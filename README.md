@@ -26,4 +26,4 @@ Este proyecto implementa un flujo de **integración continua (CI)** usando **Git
 
 ## 🧠 Desarrollado por
 **Juan Enriquez**  
-Estudiante de Ingeniería de Software | UCC" > README.md
+Estudiante de Ingeniería de Software | UCC" 
