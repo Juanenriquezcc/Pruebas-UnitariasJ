@@ -1,8 +1,12 @@
 import { render, screen } from "@testing-library/react";
+import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 
 test("renderiza el título principal", () => {
-  render(<App />);
-  // Cambia el texto buscado para que coincida con el nuevo título
+  render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  );
   expect(screen.getByText(/Bienvenido a React/i)).toBeInTheDocument();
 });
