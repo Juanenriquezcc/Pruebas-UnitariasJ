@@ -8,5 +8,5 @@ test("renderiza el título principal", () => {
       <App />
     </BrowserRouter>
   );
-  expect(screen.getByText(/Bienvenido a React/i)).toBeInTheDocument();
+  expect(screen.getByText(/Página principal/i)).toBeInTheDocument();
 });
