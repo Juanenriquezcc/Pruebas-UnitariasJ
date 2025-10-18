@@ -1,8 +1,13 @@
-import * as react from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
+import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 
 test("renderiza el título principal", () => {
-  react.render(<App />);
-  // Ajuste: verifica el texto actual mostrado en la app
-  expect(react.screen.getByText(/Bienvenido a React/i)).toBeInTheDocument();
+  render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  );
+
+  expect(screen.getByText(/Bienvenido a React/i)).toBeInTheDocument();
 });
