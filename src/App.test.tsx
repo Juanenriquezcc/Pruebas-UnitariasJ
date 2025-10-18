@@ -8,5 +8,7 @@ test("renderiza el título principal", () => {
       <App />
     </BrowserRouter>
   );
+
+  // Ajuste: coincide con el texto actual del componente App
   expect(screen.getByText(/Página principal/i)).toBeInTheDocument();
 });
